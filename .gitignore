@@ -1,0 +1,12 @@
+
+*.zip
+*.pyc
+*.mat
+*.png
+*.jpg
+*.npy 
+300W_LP/
+src/faceutil/mesh/cython/build/
+src/faceutil/mesh/cython/mesh_core_cython.egg-info/ 
+src/faceutil/mesh/cython/dist/
+*.pth

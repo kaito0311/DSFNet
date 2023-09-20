@@ -6,6 +6,9 @@ import trimesh
 import os
 import numpy as np
 
+if os.path.exists('/data/disk1/tanminh/CFR-GAN/SADRNet/data/uv_data/uv_triangles.npy'):
+    uv_triangles = np.load('/data/disk1/tanminh/CFR-GAN/SADRNet/data/uv_data/uv_triangles.npy')
+
 face_mask_np = np.array(Image.open(UV_FACE_MASK_PATH)) / 255.
 face_mask_fix_rate = (UV_MAP_SIZE ** 2) / np.sum(face_mask_np)
 foreface_ind = np.array(np.where(face_mask_np > 0)).T

@@ -17,7 +17,7 @@ from __future__ import print_function
 import numpy as np
 from time import time
 
-from .cython import mesh_core_cython
+import mesh_core_cython
 
 def rasterize_triangles(vertices, triangles, h, w):
     ''' 

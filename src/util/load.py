@@ -52,6 +52,7 @@ def load_BFM(model_path):
 
 def load_BFM_UVspace(model_path):
     C = sio.loadmat(model_path)
+    print(C.keys())
     model = C['model']
     model = model[0,0]
     

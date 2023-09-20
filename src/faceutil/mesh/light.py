@@ -9,7 +9,7 @@ from __future__ import division
 from __future__ import print_function
 
 import numpy as np
-from .cython import mesh_core_cython
+import mesh_core_cython
 
 def get_normal(vertices, triangles):
     ''' calculate normal direction in each vertex

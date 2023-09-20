@@ -7,7 +7,7 @@ import os
 from skimage import io
 from time import time
 
-from .cython import mesh_core_cython
+import mesh_core_cython
 
 ## TODO
 ## TODO: c++ version
