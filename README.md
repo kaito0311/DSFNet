@@ -21,12 +21,15 @@ You can easily prepare the conda environment by ```conda create --name DSFNet --
 
 ## Prepare
 
-* Please refer to [face3d](https://github.com/YadiraF/face3d/blob/master/examples/Data/BFM/readme.md) to prepare BFM data. And move the generated files in ```Out/``` to ```data/Out/``` 
+* Please refer to [face3d](https://github.com/YadiraF/face3d/blob/master/examples/Data/BFM/readme.md) to prepare BFM data. And move the generated files in ```Out/``` to ```data/Out/``` . Can use [convert.py](./data/convert.py) to use instead file generate matlab
 
 * Download [BFM_UVspace_patch.npy](https://drive.google.com/file/d/15q5I7bgZQOWGxXnNWt0Drg__SZ0CsoWJ/view?usp=sharing). Put it under ```data/uv_data/```
 
-* Download [pretrained model](https://drive.google.com/file/d/1YdzmY7i1pN_mmkPAZsLmA7yp2-TCwR7x/view?usp=drive_link). Put it under ```data/saved_model/```.
+* Download [pretrained model](https://drive.google.com/file/d/1YdzmY7i1pN_mmkPAZsLmA7yp2-TCwR7x/view?usp=drive_link). Put it under 
+```data/saved_model/```.
 
+## Testing for only image 
+* Structure folder : data/AFLW2000_crop/image0001/- {image0001.jpg} and  {image0001_pos_map.npy} (can fake or remove in code because it used only for evaluation)
 
 
 ## Evaluation
