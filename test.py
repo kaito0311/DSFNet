@@ -55,6 +55,7 @@ import numpy as np
 
 
 
-BFM = sio.loadmat("data/Out_matlab/BFM.mat")
+BFM = sio.loadmat("BFM.mat")
 print(type(BFM))
-print((BFM['model'][0,0]))
+print(((BFM['model'][0,0]['shapeMU'].shape)))
+# print((BFM['model'][0,0]))
