@@ -1,5 +1,5 @@
 # @kaito0311 note
-Add code generate BFM data by python code
+Add code generate BFM data by python code and visualize result.
 
 # DSFNet
 
